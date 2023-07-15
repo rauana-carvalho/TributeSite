@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'beachfly';
+    src: url('../fonts/Beachfly.woff') format('woff');
+    font-style: normal;
+    font-size: large;
+  }
+
+  @font-face {
+    font-family: 'kgprimaryenmanship';
+    src: url('../fonts/KGPrimaryPenmanship.woff') format('woff');
+    font-style: normal;
+    font-size: large;
+  }
+
+body {
+    background-color: #cfd8e5;
+    margin: 2%;
+}
+
+#img-div {
+    background-color: #F1F4F1;
+    height: auto;
+    width: auto;
+    padding: 3%;
+    margin: 0 auto;
+    border-radius: 3pt;
+    display: flex;
+    flex-direction: column;
+}
+
+#image {
+    width: auto;
+    max-height: 600px;
+    border-radius: 1.5pt;
+}
+
+img {
+    display: block;
+}
+
+h1 {
+    color: #1b1d1e;
+    position: static;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'beachfly';   
+}
+
+h2 {
+    margin-top: 6%;
+    text-align: center;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+}
+
+.citacao {
+    white-space: pre-line;
+    line-height: 16pt;
+    text-align: center;
+    color: #5e6d70;
+}
+
+#tribute-info {
+    white-space: pre-line;
+    line-height: 16pt;
+    text-indent: 0;
+}
+
+#img-caption {
+    margin-top: 5pt;
+    color: #1b1d1e;
+    text-align: center;
+}
+
+footer > p {
+    text-align: center;
+}
+
+a {
+    color: #ff6961;
+}
+
+a:hover {
+    color: #ff8fab;
+}
+
+a:visited {
+    color: #5e6d70;
+}
